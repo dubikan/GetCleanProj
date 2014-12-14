@@ -1,6 +1,9 @@
 # Codebook
 
-The following information was copied from the features_info.txt file of the original data:
+* SubjLabels -- Subject number (ranges between 1-30)
+* ActLabel -- Type of activity (six values: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing or Laying)
+
+The remainder of the variable descriptions are based on the information from the features_info.txt file of the original data:
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -34,4 +37,4 @@ The set of variables that were estimated from these signals are:
 * mean(): Mean value
 * std(): Standard deviation
 
-The data in the TidyDataResults.txt file are the average for each subject-activity of the mean() or std() of each of the above variables.
+66 Variables are calculated in total. The data in the TidyDataResults.txt file are the average for each subject-activity of the mean() or std() of each of the above variables.
