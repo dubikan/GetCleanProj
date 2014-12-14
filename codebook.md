@@ -32,9 +32,9 @@ These signals were used to estimate variables of the feature vector for each pat
 * fBodyAccJerk-XYZ
 * fBodyGyro-XYZ
 * fBodyAccMag
-* fBodyBodyAccJerkMag
-* fBodyBodyGyroMag
-* fBodyBodyGyroJerkMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
