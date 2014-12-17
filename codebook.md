@@ -2,8 +2,8 @@
 
 ## ID Labels
 
-* SubjLabels -- Subject number (ranges between 1-30)
-* ActLabel -- Type of activity (six values: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing or Laying)
+* SubjLabels -- Subject number (ranges between 1-30, based on data from subject_train and subject_test)
+* ActLabel -- Type of activity (six values: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing or Laying, based on data from y_train and y_test, labels based on activity_labels)
 
 ## Singal variables
 
